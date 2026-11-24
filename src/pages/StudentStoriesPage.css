@@ -1,0 +1,219 @@
+.student-stories {
+  display: grid;
+  max-width: 1100px;
+  gap: 25px;
+  margin: 0 auto;
+}
+
+.student-stories__header {
+  position: relative;
+  padding: 28px;
+  border: 1px solid var(--color-border);
+  border-radius: 14px;
+  background:
+    radial-gradient(ellipse at 92% 10%, rgb(var(--color-gold-rgb) / 14%), transparent 34%),
+    var(--color-surface);
+  box-shadow: var(--shadow-card);
+}
+
+.student-stories__header-icon {
+  display: grid;
+  width: 46px;
+  height: 46px;
+  place-items: center;
+  margin-bottom: 17px;
+  border-radius: 13px;
+  background: var(--color-gold-soft);
+  color: var(--color-gold);
+}
+
+.student-stories__eyebrow {
+  margin: 0 0 7px;
+  color: var(--color-gold);
+  font-size: 11px;
+  font-weight: 750;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.student-stories__intro {
+  max-width: 620px;
+  margin: 10px 0 0;
+  color: var(--color-muted);
+  font-size: 14px;
+  line-height: 1.65;
+}
+
+.student-stories__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
+  align-items: start;
+  gap: 20px;
+}
+
+.student-story-card {
+  overflow: hidden;
+  border: 1px solid var(--color-border);
+  border-radius: 14px;
+  background: var(--color-surface);
+  box-shadow: var(--shadow-card);
+  transition: transform 170ms ease, box-shadow 170ms ease, background-color 200ms ease, color 200ms ease;
+}
+
+.student-story-card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-card-hover);
+}
+
+.student-story-card__image-wrap {
+  position: relative;
+  height: 180px;
+  background: var(--color-surface-alt);
+}
+
+.student-story-card__image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.student-story-card__category {
+  position: absolute;
+  right: 12px;
+  bottom: 12px;
+  padding: 6px 10px;
+  border: 1px solid rgb(255 255 255 / 70%);
+  border-radius: 99px;
+  background: rgb(var(--color-surface-rgb) / 94%);
+  color: var(--color-gold);
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.student-story-card__body {
+  padding: 19px;
+}
+
+.student-story-card__label {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  color: var(--color-primary);
+  font-size: 11px;
+  font-weight: 750;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.student-story-card h2 {
+  margin: 10px 0 0;
+  color: var(--color-ink);
+  font-size: 17px;
+  line-height: 1.4;
+}
+
+.student-story-card blockquote {
+  margin: 14px 0 18px;
+  padding-left: 14px;
+  border-left: 3px solid #d6ad66;
+  color: var(--color-text);
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 15px;
+  font-style: italic;
+  line-height: 1.75;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+.student-story-card__footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding-top: 12px;
+  border-top: 1px solid var(--color-border);
+  color: var(--color-muted);
+  font-size: 11px;
+}
+
+.student-story-card__footer span {
+  font-weight: 700;
+}
+
+.student-stories__empty {
+  display: grid;
+  justify-items: center;
+  padding: 45px 20px;
+  border: 1px dashed #d9c9b2;
+  border-radius: 14px;
+  background: rgb(var(--color-surface-rgb) / 70%);
+  color: var(--color-muted);
+  text-align: center;
+}
+
+.student-stories__empty svg {
+  color: var(--color-gold);
+}
+
+.student-stories__empty h2 {
+  margin: 13px 0 5px;
+  color: var(--color-ink);
+  font-size: 18px;
+}
+
+.student-stories__empty p {
+  max-width: 460px;
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.student-stories__status,
+.student-stories__error,
+.student-stories__notice {
+  margin: 0;
+  color: var(--color-muted);
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+.student-stories__error {
+  color: var(--color-error);
+}
+
+@media (max-width: 560px) {
+  .student-stories__grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+  }
+
+  .student-stories__header {
+    padding: 18px;
+  }
+
+  .student-story-card__image-wrap {
+    height: 112px;
+  }
+
+  .student-story-card__body {
+    padding: 12px;
+  }
+
+  .student-story-card h2 {
+    font-size: 14px;
+  }
+
+  .student-story-card blockquote {
+    margin: 10px 0 12px;
+    padding-left: 9px;
+    font-size: 12px;
+    line-height: 1.55;
+  }
+
+  .student-story-card__footer {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 5px;
+  }
+}

@@ -1,0 +1,63 @@
+.app-shell :where(
+  .app-navbar,
+  .app-sidebar,
+  .app-sidebar__link,
+  .modal-dialog,
+  .modal-dialog__header,
+  .modal-dialog__content,
+  article,
+  .quiz-game,
+  .museum-quest,
+  .assignment-submit,
+  .sample-assignments
+) {
+  transition:
+    background-color 200ms ease,
+    color 200ms ease,
+    border-color 200ms ease,
+    box-shadow 200ms ease,
+    transform 180ms ease;
+}
+
+.app-shell :where(button, a[href], input[type='button'], input[type='submit']) {
+  transition:
+    scale 140ms cubic-bezier(0.2, 0.8, 0.2, 1),
+    transform 140ms cubic-bezier(0.2, 0.8, 0.2, 1),
+    background-color 180ms ease,
+    color 180ms ease,
+    border-color 180ms ease,
+    box-shadow 180ms ease;
+}
+
+.app-shell :where(button:not(:disabled), a[href], input[type='button'], input[type='submit']):hover {
+  scale: 0.98;
+  box-shadow: var(--shadow-card-hover);
+}
+
+.app-shell :where(button:not(:disabled), a[href], input[type='button'], input[type='submit']):active {
+  scale: 0.95;
+  box-shadow: var(--shadow-button);
+}
+
+.app-shell article[class*='card'] {
+  border-radius: 16px;
+}
+
+.app-shell article[class*='card'],
+.app-shell .quiz-game,
+.app-shell .museum-quest,
+.app-shell .assignment-submit,
+.app-shell .sample-assignments {
+  transition:
+    background-color 200ms ease,
+    color 200ms ease,
+    border-color 200ms ease,
+    box-shadow 200ms ease,
+    transform 180ms ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .app-shell :where(button, a[href], input[type='button'], input[type='submit']) {
+    transition-duration: 0.01ms;
+  }
+}

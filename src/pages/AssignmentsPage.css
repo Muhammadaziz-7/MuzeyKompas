@@ -1,0 +1,416 @@
+.assignments-page {
+  display: grid;
+  max-width: 1050px;
+  gap: 28px;
+  margin: 0 auto;
+}
+
+.assignments-page__header {
+  margin-bottom: 2px;
+}
+
+.assignments-page__eyebrow {
+  margin: 0 0 7px;
+  color: var(--color-gold);
+  font-size: 11px;
+  font-weight: 750;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+
+.assignments-page__intro {
+  max-width: 680px;
+  margin: 10px 0 0;
+  color: var(--color-muted);
+  font-size: 15px;
+  line-height: 1.65;
+}
+
+.assignment-quiz {
+  padding: clamp(20px, 3vw, 28px);
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+  background: var(--color-surface);
+  box-shadow: var(--shadow-card);
+}
+
+.assignment-quiz__heading {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 22px;
+}
+
+.assignment-quiz__heading h2 {
+  margin: 0;
+  color: var(--color-ink);
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.assignment-quiz__heading p:not(.assignments-page__eyebrow) {
+  margin: 6px 0 0;
+  color: var(--color-muted);
+  font-size: 13px;
+}
+
+.assignment-quiz__count {
+  flex: 0 0 auto;
+  padding: 7px 10px;
+  border-radius: 12px;
+  background: var(--color-primary-soft);
+  color: var(--color-primary);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.assignment-quiz__questions {
+  display: grid;
+  gap: 14px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  counter-reset: assignment-question;
+}
+
+.assignment-quiz__question {
+  min-width: 0;
+  padding: 17px;
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+  counter-increment: assignment-question;
+}
+
+.assignment-quiz__question fieldset {
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.assignment-quiz__question legend {
+  display: grid;
+  width: 100%;
+  gap: 7px;
+  margin-bottom: 13px;
+  color: var(--color-ink);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.assignment-quiz__question legend::before {
+  color: var(--color-primary);
+  content: "Savol " counter(assignment-question);
+  font-size: 11px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.assignment-quiz__topic {
+  color: var(--color-muted);
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.assignment-quiz__options {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 9px;
+}
+
+.assignment-quiz__option {
+  display: flex;
+  min-width: 0;
+  min-height: 43px;
+  align-items: center;
+  gap: 9px;
+  padding: 9px 11px;
+  border: 1px solid var(--color-border);
+  border-radius: 10px;
+  color: var(--color-text);
+  cursor: pointer;
+  font-size: 12px;
+  line-height: 1.4;
+  transition: border-color 150ms ease, background-color 150ms ease;
+}
+
+.assignment-quiz__option:hover {
+  border-color: var(--color-primary);
+  background: var(--color-primary-soft);
+}
+
+.assignment-quiz__option:has(input:focus-visible) {
+  outline: 3px solid var(--color-focus);
+  outline-offset: 2px;
+}
+
+.assignment-quiz__option input {
+  flex: 0 0 auto;
+  accent-color: var(--color-primary);
+}
+
+.assignment-quiz__option span {
+  flex: 1;
+}
+
+.assignment-quiz__option--correct,
+.assignment-quiz__option--correct:hover {
+  border-color: var(--color-success);
+  background: var(--color-success-soft);
+  color: var(--color-success);
+}
+
+.assignment-quiz__option--incorrect,
+.assignment-quiz__option--incorrect:hover {
+  border-color: var(--color-error);
+  background: var(--color-error-soft);
+  color: var(--color-error);
+}
+
+.assignment-quiz__option:has(input:disabled) {
+  cursor: default;
+}
+
+.assignment-quiz__result {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 18px 0 0;
+  padding: 13px 15px;
+  border-radius: 10px;
+  background: var(--color-primary-soft);
+  color: var(--color-primary);
+  font-size: 14px;
+}
+
+.assignment-quiz__empty {
+  margin: 0;
+  color: var(--color-muted);
+  font-size: 14px;
+}
+
+.assignment-quiz__actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.assignment-quiz__submit {
+  display: inline-flex;
+  min-height: 42px;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 0 16px;
+  border: 0;
+  border-radius: 10px;
+  background: var(--color-primary);
+  color: #fff;
+  cursor: pointer;
+  font: inherit;
+  font-size: 13px;
+  font-weight: 650;
+  transition: background-color 150ms ease;
+}
+
+.assignment-quiz__submit:hover {
+  background: var(--color-primary-hover);
+}
+
+.assignment-quiz__submit:focus-visible {
+  outline: 3px solid var(--color-focus);
+  outline-offset: 3px;
+}
+
+.sample-assignments {
+  padding: clamp(20px, 3vw, 28px);
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+  background: var(--color-surface);
+  box-shadow: var(--shadow-card);
+}
+
+.sample-assignment__icon {
+  display: grid;
+  width: 42px;
+  height: 42px;
+  flex: 0 0 auto;
+  place-items: center;
+  border-radius: 12px;
+  background: var(--color-primary-soft);
+  color: var(--color-primary);
+}
+
+.sample-assignment__download:focus-visible {
+  outline: 3px solid var(--color-focus);
+  outline-offset: 2px;
+}
+
+.sample-assignments__heading {
+  justify-content: space-between;
+  margin-bottom: 18px;
+}
+
+.sample-assignments__heading .assignments-page__eyebrow {
+  margin-bottom: 7px;
+}
+
+.sample-assignments__list {
+  display: grid;
+  gap: 11px;
+}
+
+.sample-assignment {
+  display: flex;
+  min-width: 0;
+  align-items: center;
+  gap: 14px;
+  padding: 15px;
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+  background: var(--color-surface);
+  transition: border-color 160ms ease, box-shadow 160ms ease, transform 160ms ease;
+}
+
+.sample-assignment:hover {
+  transform: translateY(-1px);
+  border-color: var(--color-border);
+  box-shadow: var(--shadow-card);
+}
+
+.sample-assignment__icon {
+  width: 40px;
+  height: 40px;
+  background: var(--color-gold-soft);
+  color: var(--color-gold);
+}
+
+.sample-assignment__details {
+  min-width: 0;
+  flex: 1;
+}
+
+.sample-assignment__details h3 {
+  margin: 0;
+  color: var(--color-ink);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.45;
+}
+
+.sample-assignment__details p {
+  margin: 4px 0 0;
+  color: var(--color-muted);
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.teacher-assignment__metadata {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 14px;
+  margin-top: 9px;
+}
+
+.teacher-assignment__metadata span {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  color: var(--color-muted);
+  font-size: 11px;
+  line-height: 1.4;
+}
+
+.sample-assignment__download {
+  display: inline-flex;
+  min-height: 40px;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 0 12px;
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+  background: var(--color-surface);
+  color: var(--color-primary);
+  cursor: pointer;
+  font: inherit;
+  font-size: 12px;
+  font-weight: 650;
+  transition: border-color 150ms ease, background-color 150ms ease;
+}
+
+.sample-assignment__download:hover {
+  border-color: var(--color-primary);
+  background: var(--color-primary-soft);
+}
+
+@media (max-width: 620px) {
+  .assignment-quiz {
+    padding: 18px;
+  }
+
+  .assignment-quiz__question {
+    padding: 13px;
+  }
+
+  .sample-assignments {
+    padding: 18px;
+  }
+
+  @media (max-width: 480px) {
+    .assignment-quiz__options {
+      grid-template-columns: minmax(0, 1fr);
+    }
+
+    .assignment-quiz__heading {
+      flex-direction: column;
+    }
+  }
+
+  .sample-assignment {
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .sample-assignments__list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 11px;
+  }
+
+  .sample-assignment {
+    display: grid;
+    grid-template-columns: 32px minmax(0, 1fr);
+    align-content: start;
+    padding: 11px;
+  }
+
+  .sample-assignment__icon {
+    width: 32px;
+    height: 32px;
+  }
+
+  .sample-assignment__details {
+    flex-basis: auto;
+  }
+
+  .sample-assignment__details h3 {
+    font-size: 12px;
+  }
+
+  .sample-assignment__details p {
+    font-size: 10px;
+  }
+
+  .sample-assignment__download {
+    grid-column: 1 / -1;
+    width: 100%;
+    min-height: 36px;
+    margin-left: 0;
+    padding: 0 7px;
+    font-size: 11px;
+  }
+}

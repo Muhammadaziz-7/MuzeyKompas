@@ -1,0 +1,55 @@
+[
+  {
+    "id": "resource-1",
+    "title": "Ermitaj muzeyiga virtual sayohat",
+    "description": "Rossiyaning Sankt-Peterburg shahridagi Davlat Ermitaj muzeyi — jahondagi eng yirik va eng mashhur muzeylardan biri. Bu virtual sayohat orqali muzeydagi noyob san'at asarlari va tarixiy eksponatlarni onlayn ko'rishingiz mumkin.",
+    "url": "https://share.google/UVCzvKnCF50WvOYX8",
+    "type": "virtual-tour",
+    "category": "Xalqaro muzeylar",
+    "icon": "globe",
+    "badge": "Virtual tur"
+  },
+  {
+    "id": "resource-2",
+    "title": "O'zbekiston tarixi davlat muzeyiga sayohat",
+    "description": "O'zbekiston Respublikasi Davlat tarixi muzeyi — O'zbekistonning eng qadimiy va eng boy muzeyi. Muzeydagi eksponatlar orqali O'zbekiston tarixi, madaniyati va san'atini chuqur o'rganishingiz mumkin.",
+    "url": "https://youtu.be/EXm-AP9o40c",
+    "embedUrl": "https://www.youtube.com/embed/EXm-AP9o40c",
+    "type": "video",
+    "category": "Milliy muzeylar",
+    "icon": "video",
+    "badge": "Video darsi"
+  },
+  {
+    "id": "resource-3",
+    "title": "Misrga virtual sayohat — to'liq kurs",
+    "description": "Qadimgi Misr sivilizatsiyasi, piramidalar, Nil vodiysidagi arxeologik kashfiyotlar va qadimgi Misr madaniyatining sirlari. Bu video to'plamda Misr haqida to'liq ma'lumot berilgan.",
+    "url": "https://youtube.com/playlist?list=PL-hr3xIvMIMU0-LruLdGBmOGDANm0H-IA",
+    "embedUrl": "https://www.youtube.com/embed/videoseries?list=PL-hr3xIvMIMU0-LruLdGBmOGDANm0H-IA",
+    "type": "playlist",
+    "category": "Tarixiy joylar",
+    "icon": "playlist",
+    "badge": "Video to'plam"
+  },
+  {
+    "id": "resource-4",
+    "title": "Muzeylarga virtual sayohat texnologiyalari",
+    "description": "Zamonaviy muzeylarning virtual ko'rinishi va raqamli imkoniyatlarini o'rganish. Muzey pedagogikasida virtual texnologiyalardan foydalanish usullari va interaktiv ko'rgazmalar haqida ma'lumot.",
+    "url": "https://youtu.be/WDIkczJM-nM",
+    "embedUrl": "https://www.youtube.com/embed/WDIkczJM-nM",
+    "type": "video",
+    "category": "Muzey pedagogikasi",
+    "icon": "video",
+    "badge": "Ta'lim video"
+  },
+  {
+    "id": "resource-5",
+    "title": "MDH davlatlarida muzey eksponatlari uchun sud immuniteti",
+    "description": "Muzeylarararo xalqaro hamkorlik va muzey eksponatlarining huquqiy himoyasi. MDH davlatlarida muzey faoliyatini tartibga soluvchi sud immuniteti va muzey eksponatlarining xavfsizligi masalalari.",
+    "url": "https://share.google/XNB7cDKhv2uOl0P91",
+    "type": "document",
+    "category": "Huquqiy asoslar",
+    "icon": "file",
+    "badge": "Hujjat"
+  }
+]

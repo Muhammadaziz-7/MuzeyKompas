@@ -1,0 +1,34 @@
+[
+  {
+    "id": "silk-road",
+    "title": "Buyuk Ipak yo‘li: madaniyatlar chorrahasi",
+    "author": "Madina Karimova",
+    "imageUrl": "/presentations/silk-road.svg",
+    "downloadUrl": "/presentations/silk-road.pptx",
+    "description": "Ipak yo‘li bo‘ylab savdo, ilm-fan va madaniy almashinuv haqida taqdimot."
+  },
+  {
+    "id": "samarkand-architecture",
+    "title": "Samarqand me’moriy obidalari",
+    "author": "Javohir Rahimov",
+    "imageUrl": "/presentations/samarkand-architecture.svg",
+    "downloadUrl": "/presentations/samarkand-architecture.pptx",
+    "description": "Samarqandning tarixiy inshootlari, bezak san’ati va me’moriy merosi."
+  },
+  {
+    "id": "museum-learning",
+    "title": "Muzeyda interaktiv ta’lim",
+    "author": "Dilnoza Sobirova",
+    "imageUrl": "/presentations/museum-learning.svg",
+    "downloadUrl": "/presentations/museum-learning.pptx",
+    "description": "Eksponatlar orqali faol o‘rganish va muzey mashg‘ulotlarini loyihalash."
+  },
+  {
+    "id": "ancient-artifacts",
+    "title": "Qadimiy buyumlar va ularning hikoyasi",
+    "author": "Azizbek Ismoilov",
+    "imageUrl": "/presentations/ancient-artifacts.svg",
+    "downloadUrl": "/presentations/ancient-artifacts.pptx",
+    "description": "Arxeologik topilmalarni kuzatish va tarixiy kontekstda talqin qilish."
+  }
+]

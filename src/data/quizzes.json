@@ -1,0 +1,110 @@
+[
+  {
+    "id": "museum-history",
+    "title": "Muzey tarixi",
+    "description": "Muzeylarning kelib chiqishi, vazifasi va tarixiy merosni asrash.",
+    "questions": [
+      {
+        "question": "Tarixiy buyumlarni yig‘ish va o‘rganishga ixtisoslashgan maskan nima?",
+        "options": ["Kutubxona", "Rasadxona", "Muzey", "Teatr"],
+        "answer": 2
+      },
+      {
+        "question": "Muzeydagi buyumlar to‘plami qanday ataladi?",
+        "options": ["Ekspozitsiya", "Arxiv", "Laboratoriya", "Sahna"],
+        "answer": 0
+      },
+      {
+        "question": "Muzeyning asosiy vazifalaridan biri qaysi?",
+        "options": ["Buyumlarni sotish", "Merosni asrash va o‘rgatish", "Yangi bino qurish", "Sayohat tashkil qilish"],
+        "answer": 1
+      },
+      {
+        "question": "Eksponat haqida ishonchli ma’lumot olish uchun nimaga murojaat qilinadi?",
+        "options": ["Tarixiy manbalarga", "Reklamalarga", "Taxminlarga", "Badiiy filmlarga"],
+        "answer": 0
+      }
+    ]
+  },
+  {
+    "id": "ancient-artifacts",
+    "title": "Qadimgi ashyolar",
+    "description": "Arxeologik topilmalar, qadimgi hunarmandchilik va buyumlar tarixi.",
+    "questions": [
+      {
+        "question": "Arxeologlar qadimgi hayot haqida ko‘proq nimani o‘rganadi?",
+        "options": ["Moddiy topilmalarni", "Ob-havo xaritasini", "Zamonaviy reklama", "Sport natijalarini"],
+        "answer": 0
+      },
+      {
+        "question": "Qadimgi sopol idishlar ko‘pincha nimadan yasalgan?",
+        "options": ["Loydan", "Plastmassadan", "Betondan", "Shishatoladan"],
+        "answer": 0
+      },
+      {
+        "question": "Tanga topilmasi tarixchilarga qanday ma’lumot berishi mumkin?",
+        "options": ["Hukmdor va davr haqida", "Bugungi ob-havo haqida", "Dengiz chuqurligi haqida", "Kelajak rejasi haqida"],
+        "answer": 0
+      },
+      {
+        "question": "Buyumning yoshi va kelib chiqishini aniqlashda qaysi usul qo‘llanishi mumkin?",
+        "options": ["Arxeologik va ilmiy tahlil", "Rangini taxmin qilish", "Narxini solishtirish", "Tasodifiy tanlash"],
+        "answer": 0
+      }
+    ]
+  },
+  {
+    "id": "silk-road",
+    "title": "Buyuk Ipak yo‘li",
+    "description": "Savdo yo‘llari, shaharlar va madaniyatlar o‘rtasidagi aloqalar.",
+    "questions": [
+      {
+        "question": "Buyuk Ipak yo‘li asosan qaysi faoliyat bilan mashhur bo‘lgan?",
+        "options": ["Savdo va madaniy almashinuv", "Faqat dengiz sayohati", "Kosmik tadqiqotlar", "Sport musobaqalari"],
+        "answer": 0
+      },
+      {
+        "question": "Samarqand tarixda qaysi yo‘lning muhim markazlaridan biri bo‘lgan?",
+        "options": ["Buyuk Ipak yo‘lining", "Buyuk Okean yo‘lining", "Temir yo‘lning", "Ziravorlar dengiz yo‘lining"],
+        "answer": 0
+      },
+      {
+        "question": "Ipak yo‘li orqali tovarlar bilan birga nima ham tarqalgan?",
+        "options": ["Ilm va g‘oyalar", "Faqat qurollar", "Faqat oziq-ovqat", "Zamonaviy texnika"],
+        "answer": 0
+      },
+      {
+        "question": "Karvonlar uzoq yo‘llarda qaysi hayvondan keng foydalangan?",
+        "options": ["Tuyadan", "Pingvindan", "Kiyikdan", "Delfindan"],
+        "answer": 0
+      }
+    ]
+  },
+  {
+    "id": "samarkand-architecture",
+    "title": "Samarqand me’morchiligi",
+    "description": "Registon, koshinkorlik va o‘rta asr me’moriy san’ati.",
+    "questions": [
+      {
+        "question": "Registon majmuasi qaysi shaharda joylashgan?",
+        "options": ["Buxoro", "Samarqand", "Xiva", "Toshkent"],
+        "answer": 1
+      },
+      {
+        "question": "O‘rta asrlarda me’moriy binolarni bezashda ko‘p ishlatilgan material qaysi?",
+        "options": ["Sirlangan koshin", "Plastmassa", "Beton panel", "Shisha tolasi"],
+        "answer": 0
+      },
+      {
+        "question": "Minoralar tarixiy majmualarda ko‘pincha qanday vazifani bajargan?",
+        "options": ["Me’moriy va diniy belgi bo‘lgan", "Suv ombori bo‘lgan", "Bozor rastasi bo‘lgan", "Har doim turar joy bo‘lgan"],
+        "answer": 0
+      },
+      {
+        "question": "Me’moriy obidani o‘rganishda qaysi jihat muhim?",
+        "options": ["Davri, materiali va bezaklari", "Faqat bugungi narxi", "Faqat balandligi", "Faqat atrofidagi yo‘llar"],
+        "answer": 0
+      }
+    ]
+  }
+]

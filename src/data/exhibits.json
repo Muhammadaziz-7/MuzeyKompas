@@ -1,0 +1,29 @@
+[
+  {
+    "id": "registon-koshini",
+    "title": "Registon majmuasining koshinlari",
+    "category": "San’at",
+    "image": "https://images.unsplash.com/photo-1564769625905-50e93615e769?auto=format&fit=crop&w=1200&q=80",
+    "description": "Samarqanddagi Registon madrasalarini bezab turgan rang-barang sirlangan koshinlar namunasi.",
+    "historical_context": "Registon majmuasi XV–XVII asrlarda shakllangan. Uning peshtoqlari va devorlaridagi geometrik hamda o‘simliksimon naqshlar Markaziy Osiyo me’morchiligi va koshinkorlik san’atining yuksak darajasini ko‘rsatadi.",
+    "pedagogical_task": "Koshin naqshlaridan takrorlanuvchi geometrik shakllarni toping va ularning simmetriyasini chizing."
+  },
+  {
+    "id": "sopol-kosa",
+    "title": "O‘rta asrlarga oid sopol kosa",
+    "category": "Arxeologiya",
+    "image": "https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?auto=format&fit=crop&w=1200&q=80",
+    "description": "An’anaviy usulda yasalgan, sirlangan va naqshlar bilan bezatilgan sopol idish.",
+    "historical_context": "Sopol buyumlar kundalik hayotda saqlash, taom tortish va savdo uchun ishlatilgan. Ularning shakli va bezaklari hududning hunarmandchilik an’analari hamda savdo aloqalari haqida ma’lumot beradi.",
+    "pedagogical_task": "Buyumning shakli va bezaklarini kuzating. U qanday vazifada ishlatilganini dalillar bilan izohlang."
+  },
+  {
+    "id": "mis-suvdon",
+    "title": "Naqshinkor mis suv idishi",
+    "category": "Tarix",
+    "image": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?auto=format&fit=crop&w=1200&q=80",
+    "description": "Misgarlik usulida ishlangan, o‘yma naqshlar bilan bezatilgan suv idishi.",
+    "historical_context": "Misgarlik shaharlardagi ustaxonalarda rivojlangan hunarlardan biri bo‘lgan. Mis idishlar mustahkamligi va qayta ishlashga yaroqliligi bilan qadrlangan, naqshlari esa usta va mahalliy uslubni aks ettirgan.",
+    "pedagogical_task": "Idishdagi naqshlardan qaysilari tabiat shakllariga o‘xshashini aniqlang va shu naqshlardan foydalanib o‘z bezagingizni yarating."
+  }
+]
